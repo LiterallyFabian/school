@@ -141,17 +141,17 @@ table {
 	}
 	.luft {
 		margin: 0;
-		padding: 3% 0 9%;
+		padding: 3% 0 4%;
 	}
 	.mindreluft {
 		margin: 0;
 		padding: 6.9% 0;
 	}
 	#slogan{
-		color: #0aa5ff;
+		color: #5de1ff;
 		margin: 42% 3% 60% 3%;
 		font-family: 'Kanit', sans-serif;
-		text-shadow: 1px 2px 2px black;
+		text-shadow: 1px 2px 20px black;
 	}
 	#logo{
 		width: 30%;
@@ -165,40 +165,31 @@ table {
 
 
 	h1 { /*3 SNABBA TITEL*/
-		font-family: "Varela Round", Helvetica, Arial, sans-serif;
-		font-size: 1.882em;
+		font-family: "Kanit", Helvetica, Arial, sans-serif;
+		font-size: 2em;
 		text-align: center;
-		line-height: 1.5em;
-		margin: 2% 0 10% 0;
+		color: #0a0839;
+		text-shadow: 2px 2px 2px #67c3ff;
 	}
-
-
-	#reviews h1 { /*MEMES TITEL*/
-		font-family: "Sniglet", Helvetica, Arial, sans-serif;
-		font-size: 2.5em;
-		text-align: center;
-		line-height: 1.5em;
-		margin: 2% 0 0% 0;
-		font-weight: 900;
-		color: #2ad2e9;
-		text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-	}
+	
 	h2{
 		font-size: 1.276em;
 		text-align: center;
 		line-height: 1.5em;
 		margin: 4% 0 2% 0;
 	}
-	#reviews p{ /*Undertexten*/
+	#reviews p { /*Undertexten*/
 		width: 90%;
+		font-family: "Kanit", Helvetica, Arial, sans-serif;
 		margin: 0 0 10% 0;
-		align-content:center;
+		align-content: center;
 		text-align: center;
 		color: black;
 	}
-	#reviews h5{ /*Enskilda reviews*/
+	#reviews h5 { /*Enskilda reviews*/
 		margin: 3%;
-		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+		font-weight: 400;
 	}
 	table { /*Lunchmenyn*/
 		width: 150%;
@@ -226,8 +217,8 @@ table {
 		line-height: 1.5em;
 		font-size: 1.1em;
 	}
-	.colorbox{
-		background-color: #1effcf;
+	.colorbox {
+		background-color: #7be3ee;
 		padding: 4% 0 4% 0;
 		margin: 5% 0 0 0%;
 	}

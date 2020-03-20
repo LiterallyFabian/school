@@ -42,18 +42,18 @@
 
             </header>   
             <div id="pagewrap">
-
-                <h1 id="lunchtitle">
+                <h1 id="titletext">
 
 
 
                     <script>
                         var dayNames = ['söndag', 'måndag', 'tisdag', 'onsdag', 'torsdag', 'fredag', 'lördag'];
-                        document.getElementById("lunchtitle").innerHTML = `Skolmat ${dayNames[new Date().getDay()]} ${(new Date()).getDate()}/${(new Date()).getMonth()+1}`; //+1 för att listan börjar på 0
+                        document.getElementById("titletext").innerHTML = `Skolmat ${dayNames[new Date().getDay()]} ${(new Date()).getDate()}/${(new Date()).getMonth() + 1}`; //+1 för att listan börjar på 0
                     </script>
 
 
                 </h1>
+            <div class="luft"></div>
                 <table>
                     <!-- här läggs datan från lunch.js, i nuläget alltid samma lista -->
                 </table>
@@ -65,14 +65,14 @@
 
                 <div class="colorbox" id="reviews">
 
-                    <h1 id="reviewtitle">Varför vi är bäst!</h1>
+                    <h1 id="titles">Varför vi är bäst!</h1>
                     <div class="reviewundertext">
                         <p>Ifall du inte redan var övertalad...</p>
                     </div>
                     <h5>"Jag har gått här i två veckor och jag känner mig redan som hemma i min Sajberfamilj. 10/10"</h5>
                     <h5>"Denna skola är bäst för att skolledningen planerar allting väldigt bra. Redan första dagen fick jag ett skåp!"</h5>
                     <h5>"Tjänade 100kr för att rektorn bad mig skriva en positiv & granskad 5-stjärnig recension, fatta hur snällt!"</h5>
-                    <h5>"Så ni menar att jag måste vara positiv med min recension? Ehh jo jag hade ju redan tänkt det, denna skola är bäst på allt!"</h5>
+                    <h5>"Ludwig. Nuff said"</h5>
                     <h5>"Lunchen är fantastisk, och nu med vår nya matsal finns det alltid plats för umgänge när man käkar!"</h5>
                 </div> <!--COLORBOX-->
 
@@ -84,15 +84,15 @@
                     <script src="javascript/slideshow.js"></script>
 
                     <div id="slideshowtext">
-                        <h1>"Rocks are just big sand"</h1>
-                        <h2> - Albert Einstein</h2>
+                        <h1>"Skolan du önskar att du gick på"</h1>
+                        <h2> - Rektor Ben Dover</h2>
                     </div> <!--SLIDESHOWTEXT END-->
 
                 </div> <!--SLIDESHOW END-->
 
                 <div id="slideshowtextmobil">
-                    <h1>"Rocks are just big sand"</h1>
-                    <h2> - Albert Einstein</h2>
+                    <h1>"Skolan du önskar att du gick på"</h1>
+                    <h2> - Rektor Ben Dover</h2>
                 </div> <!--SLIDESHOWTEXTMOBIL END-->
 
             </div> <!--PAGEWRAP END-->
