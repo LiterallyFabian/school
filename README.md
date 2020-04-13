@@ -1,6 +1,6 @@
 # SajberGymnasiet 
 
-some random meme based on [cybergymnasiet.se](cybergymnasiet.se) made as a school project
+some random meme based on [cybergymnasiet.se](https://cybergymnasiet.se/) made as a school project
 
 
 
