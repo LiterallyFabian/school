@@ -12,10 +12,12 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/design1.css">
   <meta charset="UTF-8">
   <script src="js/hamburger.js"></script>
-  <script src="js/schedule.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SajberGymnasiet</title>
 
+    <title>SajberGymnasiet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/schedule.js"></script>
 </head>
 
 <body>
@@ -26,7 +28,7 @@
       <div class="topnav"> <a href="index.html" class="active">SajberGymnasiet</a>
         <!--
                 Navigation links (hidden by default) -->
-        <div id="myLinks"> <a href="scheman.html">SCHEMAN</a> <a href="#info">SKOLINFO</a> <a href="lunch.html">LUNCH</a> <a href="kontakt.html">KONTAKT</a>
+        <div id="myLinks"> <a href="index.html">HEM</a> <a href="info.html">SKOLINFO</a> <a href="index.html#titletext">LUNCH</a> <a href="kontakt.html">KONTAKT</a> <a href="https://github.com/LiterallyFabian/school">SOURCE</a>
 
         </div>
         <!-- "Hamburger menu" / "Bar icon" to toggle the
@@ -36,17 +38,21 @@
       <div class="brodtext">
         <div class="mindreluft"></div>
           <h1 id="slogan">Scheman</h1>
+          <h2 id="underslogan">Denna sidas javascript existerar, men fungerar ej :(</h2>
 
 
 
-          <label for="program" id="program">Välj klass...</label><br>
+          <label for="program" id="programlabel">Välj klass...</label><br>
           <select class="dropdown" id="program" name="program" required>
             <option value="none"></option>
-            <option value="te">TE19A</option>
-            <option value="te">ES17B</option>
-            <option value="te">HV19A</option>
+            <option value="1">TE19A</option>
+            <option value="2">ES17B</option>
+            <option value="3">ES18A</option>
+            <option value="4">EK19C</option>
+            <option value="5">NA19B</option>
+            <option value="6">HV19A</option>
           </select><br>
-<div id="schemapicture">
+<img id="schemapicture" src='img/schedules/te.png'>
 
 
 
@@ -56,7 +62,7 @@
       <ul>
         <li><a href="index.html">HEM</a></li>
         <li><a href="info.html">SKOLINFO</a></li>
-        <li><a href="index.html#lunch">LUNCH</a></li>
+        <li><a href="index.html#titletext">LUNCH</a></li>
         <li><a href="https://github.com/LiterallyFabian/school">SOURCE</a></li>
         <li><a href="kontakt.html">KONTAKT</a></li>
       </ul>
