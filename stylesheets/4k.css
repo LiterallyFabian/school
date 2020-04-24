@@ -1,0 +1,387 @@
+@media only screen and (min-width : 2561px) {
+  body {
+    width: 100%;
+    font: 17px "Source Sans Pro", Helvetica, Arial, sans-serif;
+    background: white;
+  }
+
+  #hembg {
+    background-image: url(../img/blossomreallysmall.png);
+    background-position: center top;
+    background-attachment: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill ;
+  }
+
+  nav ul {
+    text-align: center;
+    padding: 6% 0;
+  }
+
+  nav ul li {
+    display: inline;
+    margin: 2%;
+  }
+
+  nav ul li a {
+    /*4 länkarna i toppen*/
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: lightblue;
+    text-shadow: 3px 3px #10590b;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    color: skyblue;
+  }
+
+  nav ul li a:active {
+    color: deepskyblue;
+  }
+
+  /* Style the navigation menu */
+  /* TOP NAV MENU */
+  .topnav {
+    overflow: hidden;
+    background-color: #A6FFE512;
+    position: relative;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    padding: 1% 16px;
+    font-weight: bolder;
+    color: #FFA6EF;
+    text-shadow: 2px 2px #9D172D;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    color: #F79EEA;
+    text-shadow: 2px 2px #B0223A;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #FFA6EF3D;
+    color: white;
+    padding: 2px 0 0 0;
+  }
+
+  .luft {
+    margin: 0;
+    padding: 3% 0 2%;
+  }
+
+  .mycketluft {
+    margin: 0;
+    padding: 0% 0% 13% 0%;
+  }
+
+  .mindreluft {
+    margin: 0;
+    padding: 6.9% 0;
+  }
+
+  #slogan {
+    font-size: 5.2em;
+    color: #5de1ff;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 1px 2px 20px black;
+  }
+
+  #underslogan {
+    color: #5de1ff;
+    margin: 3%;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 1px 2px 20px black;
+  }
+
+  #logo {
+    width: 10%;
+    display: block;
+  }
+
+  #pagewrap {
+    width: 100%;
+    background-color: #7be3ee;
+    padding: 4% 0 0 0;
+  }
+
+  h1 {
+    /*3 SNABBA TITEL*/
+    font-family: "Kanit", Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: #0a0839;
+    text-shadow: 2px 2px 2px #67c3ff;
+  }
+
+  h2 {
+    font-size: 1.276em;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 4% 0 2% 0;
+  }
+
+  #schemapicture {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  #reviews p {
+    /*Undertexten*/
+    width: 100%;
+    font-family: "Kanit", Helvetica, Arial, sans-serif;
+    margin: 0 0 2% 0;
+    font-size: 1.5em;
+    align-content: center;
+    text-align: center;
+    color: black;
+  }
+
+  #reviews h5 {
+    /*Enskilda reviews*/
+    margin: 5px;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  table {
+    /*Lunchmenyn*/
+    width: 69%;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  td {
+    height: 35px;
+    vertical-align: middle;
+    padding: 23px;
+    font-size: 30px;
+  }
+
+  tr:nth-child(even) {
+    /*Byter färg på varannan vilket ökar läsligheten*/
+    background-color: #5bcad6;
+  }
+
+  tr th {
+    display: none;
+  }
+
+  tr td:last-child {}
+
+  .brodtext p {
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 1.1em;
+  }
+
+  .colorbox {
+    background-color: #7be3ee;
+    padding: 4% 0 4% 0;
+    margin: 5% 0 0 0%;
+  }
+
+  .colorbox p {
+    color: white;
+    text-align: center;
+  }
+
+  .media {
+    width: 98%;
+    line-height: 3em;
+    text-align: center;
+  }
+
+  .video {
+    width: 372px;
+    height: 269px;
+  }
+
+  form {
+    margin: 5%;
+  }
+
+  input {
+    width: 100%;
+    background: #20b3b333;
+  }
+
+  input[type=text], input[type=date], input[type=email] {
+    /*Text input*/
+    color: #8ceeff;
+    font-family: "Kanit", Helvetica, Arial, sans-serif;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    border: 1px solid black;
+  }
+  .applyform{
+    text-align: center;
+  }
+  .dropdown {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    font-family: "Kanit", Helvetica, Arial, sans-serif;
+    color: #000099;
+    background-color: #00ccff36;
+  }
+
+  #textarea {
+    padding: 0 0 20% 1%;
+    border: 1px solid black;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    /*Knappar*/
+    background-color: black;
+    font-family: "Sniglet", Helvetica, Arial, sans-serif;
+    color: white;
+    border: 3px solid #cc33ff40;
+    font-size: 1.6em;
+    padding: 1% 0;
+    margin: 2% 0 5% 0;
+    width: 20%;
+  }
+
+  label {
+    color: #ccffff;
+    font-family: "Kanit", Helvetica, Arial, sans-serif;
+    display: block;
+    text-align: center;
+  }
+
+  #slideshow {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: aliceblue;
+    text-align: center;
+  }
+
+  .w3-animate-fading {
+    animation: fading 5s infinite
+  }
+
+  @keyframes fading {
+    0% {
+      opacity: 0
+    }
+
+    50% {
+      opacity: 1
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  #slideshowtextmobil {
+    display: none;
+  }
+
+  #slideshow img {
+    width: 100%
+  }
+
+  #slideshowtext {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+  }
+
+  #slideshowtext h1 {
+    /*Bildspel quote*/
+    line-height: 0.5em;
+    color: white;
+    text-shadow: 3px 2px #a30bb0;
+    font-weight: 100;
+  }
+
+  #slideshowtext h2 {
+    /*Albert einstein*/
+    line-height: 0.8em;
+    color: white;
+    text-shadow: 3px 2px #a30bb0;
+    font-weight: 100;
+    padding: 0 0 0 9em;
+    font-size: 1.6em;
+  }
+
+  footer {
+    background-image: url(../img/blossomreallysmall.png);
+    padding: 3%;
+    background-color: #7be3ee;
+  }
+
+  footer ul {
+    text-align: center;
+    padding: 0% 0 2% 0;
+  }
+
+  footer ul li {
+    display: inline;
+    margin: 0 2%;
+  }
+
+  footer ul li a {
+    font-size: 2em;
+    font-weight: bold;
+    color: #FFA6EF;
+    text-shadow: 2px 2px #9D172D;
+    text-decoration: none;
+  }
+
+  footer ul li a:hover {
+    color: #ffccf6;
+  }
+
+  footer ul li a:active {
+    color: #000000;
+  }
+
+  footer p {
+    /*Adress*/
+    text-align: center;
+    color: #fce0ff;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+
+  footer p a {
+    /*Adress*/
+    color: #fce0ff;
+    text-decoration: none;
+  }
+}

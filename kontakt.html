@@ -6,10 +6,12 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Sniglet&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="stylesheets/design1.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--Hamburger icons-->
-  <link rel="stylesheet" type="text/css" href="stylesheets/design1.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/768p.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/1600p.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/2560p.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/4k.css">
   <meta charset="UTF-8">
   <script src="js/hamburger.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,26 +35,25 @@
                     fa-bars"></i> </a>
       </div> <a href="index.html"><img src="img/logo.png" alt="loggan" id="logo"></a>
       <div class="brodtext">
-        <div class="mindreluft"></div>
         <div id="memestitle">
           <h1 id="slogan">Ansök till SajberGymnasiet
             här!</h1>
           <h2 id="underslogan">Vi vet att du vill...</h2>
         </div>
-        <div class="mindreluft"></div>
+        <form action="mailto:join@cybergymnasiet.com" method="GET" enctype="text/plain" class="applyform">
+          <br> <label for="fname" id="formtitle">Förnamn:</label> <input type="text" id="fname" name="fname" required><br>
+          <br> <label for="lname" id="formtitle">Efternamn:</label> <input type="text" id="lname" name="lname" required><br>
 
-        <form action="mailto:join@cybergymnasiet.com" method="GET" enctype="text/plain"> <label for="fname" id="formtitle">Förnamn:</label><br>
-          <input type="text" id="fname" name="fname" required><br> <label for="lname" id="formtitle">Efternamn:</label><br> <input type="text" id="lname" name="lname" required>
+          <br> <label for="email" id="formtitle">Mejladress:</label> <input type="email" id="email" name="email" required><br>
 
-          <label for="email" id="formtitle">Mejladress:</label> <input type="email" id="email" name="email" required>
-
-          <label for="genders" id="formtitle">Kön:</label><br> <select class="dropdown" id="genders" name="genders">
+          <br> <label for="genders" id="formtitle">Kön:</label> <select class="dropdown" id="genders" name="genders">
             <option value="none"></option>
             <option value="male">Man</option>
             <option value="female">Kvinna</option>
-          </select><br>
+            <option value="whatever">Annat</option>
+          </select>
 
-          <label for="program" id="formtitle">Önskat program:</label><br> <select class="dropdown" id="program" name="genders" required>
+          <br> <label for="program" id="formtitle">Önskat program:</label> <select class="dropdown" id="program" name="genders" required>
             <option value="none"></option>
             <option value="te">Teknik: Info & media</option>
             <option value="te2">Teknik: Produkt & design</option>
@@ -67,7 +68,8 @@
 
           <label for="birthday" id="formtitle">Födelsedatum:</label> <input type="date" id="birthday" name="birthday" min="2001-01-01" max="2005-12-31">
 
-          <input type="submit" value="Skicka!"> <input type="reset" value="Återställ">
+          <br><input type="submit" value="Skicka!">
+          <input type="reset" value="Återställ">
 
         </form>
 
