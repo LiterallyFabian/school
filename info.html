@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--SajberGymnasiet-->
 <html lang="sv">
@@ -7,10 +6,10 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Sniglet&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="stylesheets/768p.css">
-<link rel="stylesheet" type="text/css" href="stylesheets/1600p.css">
-<link rel="stylesheet" type="text/css" href="stylesheets/2560p.css">
-<link rel="stylesheet" type="text/css" href="stylesheets/4k.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/768p.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/1600p.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/2560p.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/4k.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--Hamburger icons-->
   <meta charset="UTF-8">
@@ -56,46 +55,46 @@
       <h5>5/5 - Gymnasiemässan för alla ambassadörer</h5>
       <h5>16/5 - Påsklov tills 25/5</h5>
 
-    <div class="colorbox" id="reviews">
+      <div class="colorbox">
 
-      <h1 id="titles">SchoolHard</h1>
-      <div class="reviewundertext">
-        <p>Information om inloggning och använding av <a href="https://www.youtube.com/watch?v=DLzxrzFCyOs">skolplattformen</a></p>
+        <h1 id="titles">SchoolHard</h1>
+        <div class="reviewundertext">
+          <p>Information om inloggning och använding av <a href="https://www.youtube.com/watch?v=DLzxrzFCyOs">skolplattformen</a></p>
+        </div>
+        <h5>Ditt användarnamn är dina 2 första bokstäver i namnet tillsammans med ditt födelseår, till exempel fa2002.</h5>
+        <h5>Ditt lösenord är abc123 by default, men du kan ändra detta genom att skicka ett brev till skolan med ämnesraden "SchoolHard"</h5>
+        <h5>Ifall du går till "Betyg" i SchoolHard kan du se dina betyg</h5>
+        <h5>Närvaro kan du se i SchoolHard genom att gå till närvarofliken</h5>
+        <h5>varför skriver jag ens detta?</h5>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+
       </div>
-      <h5>Ditt användarnamn är dina 2 första bokstäver i namnet tillsammans med ditt födelseår, till exempel fa2002.</h5>
-      <h5>Ditt lösenord är abc123 by default, men du kan ändra detta genom att skicka ett brev till skolan med ämnesraden "SchoolHard"</h5>
-      <h5>Ifall du går till "Betyg" i SchoolHard kan du se dina betyg</h5>
-      <h5>Närvaro kan du se i SchoolHard genom att gå till närvarofliken</h5>
-      <h5>varför skriver jag ens detta?</h5>
-      <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+      <!--REVIEWS END-->
 
-    </div>
-    <!--REVIEWS END-->
+      <div id="pagewrap">
+        <h1 id="titletext">
 
-    <div id="pagewrap">
-      <h1 id="titletext">
-
-        <script>
-          var dayNames = ['söndag', 'måndag', 'tisdag',
-            'onsdag', 'torsdag', 'fredag', 'lördag'
-          ];
-          document.getElementById("titletext").innerHTML = `Skolmat
+          <script>
+            var dayNames = ['söndag', 'måndag', 'tisdag',
+              'onsdag', 'torsdag', 'fredag', 'lördag'
+            ];
+            document.getElementById("titletext").innerHTML = `Skolmat
                     ${dayNames[new Date().getDay()]} ${(new
                     Date()).getDate()}/${(new Date()).getMonth() + 1}`; //+1 för att listan börjar på 0
-        </script>
+          </script>
 
-      </h1>
-      <div class="luft"></div>
-      <table>
-        <!-- här läggs datan från
+        </h1>
+        <div class="luft"></div>
+        <table>
+          <!-- här läggs datan från
                 lunch.js, i nuläget alltid samma lista -->
-      </table>
+        </table>
 
-      <script src="js/lunch.js" charset="Default"></script>
-      <!--Charset ändras för att använda åäö med JS-->
+        <script src="js/lunch.js"></script>
+        <!--Charset ändras för att använda åäö med JS-->
 
 
-
+      </div>
     </div>
     <!--PAGEWRAP END-->
   </div>
