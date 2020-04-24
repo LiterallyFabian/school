@@ -1,0 +1,9 @@
+#dotcom{
+  background-color: red;
+  width: 2px;
+  height: 2px;
+  position: fixed;
+  top: 626px;
+  left: 542px;
+  z-index: 9999;
+}
