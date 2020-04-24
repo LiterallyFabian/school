@@ -1,11 +1,11 @@
 let food = [
-  { Dag: "Måndag", Normal: "Pyttipanna, serveras med rödbetor", Vegetariskt: "Vegetarisk pytt, serveras med rödbetor" },
-  { Dag: "Tisdag", Normal: "Pasta Bolognese, serveras med riven ost", Vegetariskt: "Linssoppa, serveras med bröd och pålägg" },
+  { Dag: "MÃ¥ndag", Normal: "Pyttipanna, serveras med rÃ¶dbetor", Vegetariskt: "Vegetarisk pytt, serveras med rÃ¶dbetor" },
+  { Dag: "Tisdag", Normal: "Pasta Bolognese, serveras med riven ost", Vegetariskt: "Linssoppa, serveras med brÃ¶d och pÃ¥lÃ¤gg" },
   { Dag: "Onsdag", Normal: "Potatisbullar, serveras med keso och lingonsylt", Vegetariskt: ""},
-  { Dag: "Torsdag", Normal: "Panerad fisk, serveras med kokt potatis och sås", Vegetariskt: "Rödbetsbiffar, serveras med kokt potatis och kall sås" },
-  { Dag: "Fredag", Normal: "Färsbiffar, serveras med bulgur och tomatsalsa", Vegetariskt: "Sojabiffar, serveras med bulgur och tomatsalsa" },
-  { Dag: "Lördag", Normal: "Stängt", Vegetariskt: ""},
-  { Dag: "Söndag", Normal: "Stängt", Vegetariskt: ""} //lämnar blank för att aligna rätt 
+  { Dag: "Torsdag", Normal: "Panerad fisk, serveras med kokt potatis och sÃ¥s", Vegetariskt: "RÃ¶dbetsbiffar, serveras med kokt potatis och kall sÃ¥s" },
+  { Dag: "Fredag", Normal: "FÃ¤rsbiffar, serveras med bulgur och tomatsalsa", Vegetariskt: "Sojabiffar, serveras med bulgur och tomatsalsa" },
+  { Dag: "LÃ¶rdag", Normal: "StÃ¤ngt", Vegetariskt: ""},
+  { Dag: "SÃ¶ndag", Normal: "StÃ¤ngt", Vegetariskt: ""} //lï¿½mnar blank fï¿½r att aligna rï¿½tt
 ];
 
 function generateTableHead(table, data) {
