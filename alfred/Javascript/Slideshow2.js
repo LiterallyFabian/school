@@ -10,5 +10,5 @@ function Karusell() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(Karusell, 9000);    
+  setTimeout(Karusell, 9000);    //xd
 }
