@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="sv">
+                        <!--head syns inte på sidan-->
+<head>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="stylesheets/design1.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device, initial-scale=1.0">
+<title>Alexander Pernebring</title>
+
+</head>
+                        <!--body = det som syns på sidan-->
+<body>
+    <div id="kontaktbg">
+    <header>
+<!-- side navigation -->
+<div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="index.html#ankare1">About game</a>
+        <a href="index.html#ankare2">Video</a>
+        <a href="kontakt.html">Contact</a>
+      </div>
+      
+      
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+        <!-- side navigation slut -->    
+        
+            <div class="brodtext">
+                <div class="luft2"></div>
+                <h1> wanna ask something </h1>
+                <div class="luft2"></div>
+            
+       <form action="mailto:Alexander.pernebrng@elev.cybergymnasiet.se"
+       method="post" enctype="text/plain">
+           <input class="inputtext" type="text" name="name" value="Namn"> 
+
+           <input class="inputtext" type="text" name="email" value="E-post"> 
+
+           <input id="textarea" type="text" name="comment" value="Meddelande"> 
+
+           <input type="submit" value="Skicka"> 
+       </form>
+            </div> <!--brödtext slut-->
+    </header>
+
+
+<footer id="pagewrap1">
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#ankare1">About game</a></li>
+        <li><a href="index.html#ankare2">Video</a></li>
+        <li><a href="kontakt.html">Contact</a></li>
+    </ul>
+
+
+    <p>
+        hittagatan 96, 420 69 STOCKHOLM, tel: (+46)73-955 44 33
+    </p>
+    <p>
+        copyright 2017
+    </p>
+
+</footer>
+   
+</div> <!--HEMBG SLUTTAG-->
+</body>
+
+</html>

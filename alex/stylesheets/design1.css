@@ -1,0 +1,1978 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/ 
+
+ /* NOLLSTÄLLNING AV CSS I WEBLÄSARE! BÖRJAN*/
+
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed, 
+ figure, figcaption, footer, header, hgroup, 
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, 
+ footer, header, hgroup, menu, nav, section {
+     display: block;
+ }
+ body {
+     line-height: 1;
+ }
+ ol, ul {
+     list-style: none;
+ }
+ blockquote, q {
+     quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+     content: '';
+     content: none;
+ }
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
+ /*NOLLSTÄLLNING AV CSS I WEBLÄSARE! SLUT*/
+                
+                    /*mobil layout*/
+@media only screen and (max-width : 480px) {
+
+body
+{
+    width: 100%;
+    font: 14px "open sans", Helvetica, Arial, sans-serif;
+    background: white; 
+}
+                                                        /* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+                                                    /* The side navigation menu slut */
+#hembg 
+{
+    background-image: url(../bilder/bakgrund-stellaris-mobil.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+#kontaktbg 
+{
+    background-image: url(../bilder/coffe_contact.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+
+
+nav ul {
+    text-align: center;
+    padding: 7%;
+}
+nav ul li {
+    display: inline; 
+    margin: 0 1.5%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+nav ul li a:active {
+    color: rgb(1, 1, 102);
+}
+#pic
+{
+    width: 100%;
+    height: 100%;
+}
+.luft
+{
+    margin: 0;
+    padding: 18% 0;
+}
+.luft2
+{
+    margin: 0;
+    padding: 3% 0;
+}
+.luft3
+{
+    margin: 0;
+    padding: 3% 0;
+}
+#logo
+{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+#pagewrap 
+{
+    width: 100%;
+    background-color: white;
+    padding: 50px 0 0 0;
+}
+
+h1, h2, h3, h4
+{
+font-family: "Roboto", Helvetica, Arial, sans-serif;
+font-weight: 700;
+color: black; 
+}
+h1
+{
+    font-size: 3em;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 2% 0 7% 0;
+}
+h2
+{
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 7% 0 2% 0;
+}
+h3
+{
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 7% 0 2% 0;
+}
+h4
+{
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 7% 0 2% 0;
+}
+.brodtext
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.brodtext p
+{
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    
+}
+.colorbox
+{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 10% 0 4% 0;
+    margin: 20% 0 0 0;
+}
+.colorbox h1
+{
+    color:white;
+    margin: 0;
+}
+.colorbox .brodtext
+{
+    color: white;
+}
+.colorbox p
+{
+    text-align: center;
+}
+.colorbox
+{
+    width: 100%;
+    text-align: center;
+}
+.video
+{
+    width: 310px;
+    height: 224px;
+    margin: 1%;
+}
+form
+{
+    margin: 0 0 10% 0;
+}
+input
+{
+    width: 100%;
+    background: none;
+}
+input[type=text]
+{
+    width: 99%;
+    font-size: 1.5em; 
+    margin: 2% 0;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0 0 0 1%;
+}
+#textarea
+{
+    padding: 0 0 25% 1%; 
+    border: 1px solid black;
+}
+input[type=button], input[type=submit], input[type=reset]
+{
+background-color: black;
+border: none;
+color: white;
+font-size: 1.5em; 
+text-align: center;
+padding: 4% 0;
+margin: 0.5% 0.25%; 
+}
+#slideshow
+{
+     display:none;
+}
+
+#slideshowtextmobil
+{
+    width: 100%;
+    padding: 3% 0%;
+    background-image: url(../bilder/snow_house.jpg); 
+}
+#pagewrap1 
+{
+    width: 100%;
+    background-color: white;
+    padding: 1% 0 6% 0;
+}
+footer ul {
+    text-align: center;
+    padding: 7% 0 2% 0;
+    
+}
+footer ul li {
+    display: inline; 
+    margin: 0 1.5%;
+}
+
+footer ul li a {
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    color: red;
+}
+footer ul li a:active {
+    color: rgb(1, 1, 102);
+}
+footer p 
+{
+    color: grey;
+    text-align: center;
+    font-size: 0.7em;
+    margin: 0 0 2% 0;
+}
+}
+
+
+
+
+
+
+
+
+/*tablet layout*/
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+
+body
+{
+    width: 100%;
+    font: 14px "open sans", Helvetica, Arial, sans-serif;
+    background: white; 
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+                                                    /* The side navigation menu slut */
+#hembg 
+{
+    background-image: url(../bilder/bakgrund-stellaris-tablet.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+#kontaktbg 
+{
+    background-image: url(../bilder/tabletcoffe.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+nav ul {
+    text-align: center;
+    padding: 7%;
+}
+nav ul li {
+    display: inline; 
+    margin: 0 1.5%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+nav ul li a:active {
+    color: rgb(1, 1, 102);
+}
+#pic
+{
+    width: 100%;
+    height: 100%;
+}
+.luft
+{
+    margin: 0;
+    padding: 18% 0;
+}
+.luft2
+{
+    margin: 0;
+    padding: 3% 0;
+}
+.luft3
+{
+    margin: 0;
+    padding: 3% 0;
+}
+#logo
+{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+#pagewrap 
+{
+    width: 100%;
+    background-color: white;
+    padding: 50px 0 0 0;
+}
+
+h1, h2, h3, h4
+{
+font-family: "Roboto", Helvetica, Arial, sans-serif;
+font-weight: 700;
+color: black; 
+}
+h1
+{
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 2% 0 7% 0;
+}
+h2
+{
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 7% 0 2% 0;
+}
+h3
+{
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 7% 0 2% 0;
+}
+h4
+{
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 7% 0 2% 0;
+}
+.brodtext
+{
+    width:70%;
+    margin: 0 auto;
+}
+.brodtext p
+{
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    
+}
+.colorbox
+{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 10% 0 4% 0;
+    margin: 20% 0 0 0;
+}
+.colorbox h1
+{
+    color:white;
+    margin: 0;
+}
+.colorbox .brodtext
+{
+    color: white;
+}
+.colorbox p
+{
+    text-align: center;
+}
+.colorbox
+{
+    width: 100%;
+    text-align: center;
+}
+.video
+{
+    width: 310px;
+    height: 224px;
+    margin: 1%;
+}
+form
+{
+    width: 80%;
+    margin: 0 auto 15px;
+} 
+input
+{
+    width: 100%;
+    background: none;
+}
+input[type=text]
+{
+    width: 99%;
+    font-size: 1.5em; 
+    margin: 2% 0;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0 0 0 1%;
+}
+#textarea
+{
+    padding: 0 0 25% 1%; 
+    border: 1px solid black;
+}
+input[type=button], input[type=submit], input[type=reset]
+{
+background-color: black;
+border: none;
+color: white;
+font-size: 1.5em; 
+text-align: center;
+padding: 4% 0;
+margin: 0.5% 0.25%; 
+}
+#slideshow
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: white;
+    text-align: center;
+}
+#slideshow img
+{
+    width: 100%;
+}
+#slideshowtext
+{
+    position:absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+#slideshowtextmobil
+{
+    display: none;
+}
+#pagewrap1 
+{
+    width: 100%;
+    background-color: white;
+    padding: 1% 0 6% 0;
+}
+#mellanrum
+{
+    padding: 8% 0 0 0;
+}
+footer ul {
+    text-align: center;
+    padding: 7% 0 2% 0;
+    
+}
+footer ul li {
+    display: inline; 
+    margin: 0 1.5%;
+}
+
+footer ul li a {
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    color: red;
+}
+footer ul li a:active {
+    color: rgb(1, 1, 102);
+}
+footer p 
+{
+    color: grey;
+    text-align: center;
+    font-size: 0.7em;
+    margin: 0 0 2% 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   /*dator layout*/
+@media only screen and (min-width : 769px) and (max-width : 1024px) {
+
+body
+{
+    width: 100%;
+    font: 14px "open sans", Helvetica, Arial, sans-serif;
+    background: white; 
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+                                                    /* The side navigation menu slut */
+#hembg 
+{
+    background-image: url(../bilder/bakgrund-stellaris-laptop.jpg);
+    background-color: brown;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+#kontaktbg 
+{
+    background-image: url(../bilder/lapcoffee.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+nav ul {
+    text-align: center;
+    padding: 3%;
+}
+nav ul li {
+    display: inline; 
+    margin: 0 1.5%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+nav ul li a:active {
+    color: rgb(1, 1, 102);
+}
+#pic
+{
+    width: 100%;
+    height: 100%;
+}
+.luft
+{
+    margin: 0;
+    padding: 9% 0;
+}
+.luft2
+{
+    margin: 0;
+    padding: 3% 0;
+}
+.luft3
+{
+    margin: 0;
+    padding: 3% 0;
+}
+#logo
+{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+#pagewrap 
+{
+    width: 100%;
+    background-color: white;
+    padding: 50px 0 0 0;
+}
+
+h1, h2, h3, h4
+{
+font-family: "Roboto", Helvetica, Arial, sans-serif;
+font-weight: 700;
+color: black; 
+}
+h1
+{
+    font-size: 3em;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 2% 0 7% 0;
+}
+h2
+{
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 7% 0 2% 0;
+}
+h3
+{
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 7% 0 2% 0;
+}
+h4
+{
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 7% 0 2% 0;
+}
+.brodtext
+{
+    width: 70%;
+    margin: 0 auto;
+}
+.brodtext p
+{
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    
+}
+.colorbox
+{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 10% 0 4% 0;
+    margin: 20% 0 0 0;
+    text-align: center;
+}
+.colorbox h1
+{
+    color:white;
+    margin: 0;
+}
+.colorbox .brodtext
+{
+    color: white;
+}
+.colorbox p
+{
+    text-align: center;
+}
+
+.media{
+    width: 100%;
+}
+.video
+{
+    width: 360px;
+    height: 244px;
+    margin: 1% 1%;
+}
+form
+{
+    width: 70%;
+    margin: 0 auto 15px;
+}
+input
+{
+    width: 100%;
+    background: none;
+}
+input[type=text]
+{
+    width: 99%;
+    font-size: 1.5em; 
+    margin: 2% 0;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0 0 0 1%;
+}
+#textarea
+{
+    padding: 0 0 25% 1%; 
+    border: 1px solid black;
+}
+input[type=button], input[type=submit], input[type=reset]
+{
+background-color: black;
+border: none;
+color: white;
+font-size: 1.5em; 
+text-align: center;
+padding: 4% 0;
+margin: 0.5% 0.25%; 
+}
+
+.w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+#slideshow
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: white;
+    text-align: center;
+}
+
+#slideshow img
+{
+    width: 100%;
+}
+
+#slideshowtext
+{
+    position:absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+#slideshowtextmobil
+{
+    display: none;
+}
+#pagewrap1 
+{
+    width: 100%;
+    background-color: white;
+    padding: 1% 0 6% 0;
+}
+#mellanrum
+{
+    padding: 8% 0 0 0;
+}
+footer ul {
+    text-align: center;
+    padding: 7% 0 2% 0;
+    
+}
+footer ul li {
+    display: inline; 
+    margin: 0 1.5%;
+}
+
+footer ul li a {
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    color: red;
+}
+footer ul li a:active {
+    color: rgb(1, 1, 102);
+}
+footer p 
+{
+    color: grey;
+    text-align: center;
+    font-size: 0.7em;
+    margin: 0 0 2% 0;
+}
+}
+
+
+
+
+
+
+      /*dator large layout*/
+@media only screen and (min-width : 1025px) and (max-width : 1440px) {
+
+body
+{
+    width: 100%;
+    font: 14px "open sans", Helvetica, Arial, sans-serif;
+    background: white; 
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+                                                    /* The side navigation menu slut */
+#hembg 
+{
+    background-image: url(../bilder/bakgrund-stellaris-xL-laptop.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+#kontaktbg 
+{
+    background-image: url(../bilder/big_boy_coffee.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+nav ul {
+    text-align: center;
+    padding: 3%;
+}
+nav ul li {
+    display: inline; 
+    margin: 0 1.5%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+nav ul li a:active {
+    color: rgb(1, 1, 102);
+}
+#pic
+{
+    width: 100%;
+    height: 100%;
+}
+.luft
+{
+    margin: 0;
+    padding: 4% 0;
+}
+.luft2
+{
+    margin: 0;
+    padding: 3% 0;
+}
+.luft3
+{
+    margin: 0;
+    padding: 3% 0;
+}
+#logo
+{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+#pagewrap 
+{
+    width: 100%;
+    background-color: white;
+    padding: 50px 0 0 0;
+}
+
+h1, h2, h3, h4
+{
+font-family: "Roboto", Helvetica, Arial, sans-serif;
+font-weight: 700;
+color: black; 
+}
+h1
+{
+    font-size: 3em;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 2% 0 7% 0;
+}
+h2
+{
+    font-size: 1.8em;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 7% 0 2% 0;
+}
+h3
+{
+    font-size: 1.8em;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 7% 0 2% 0;
+}
+h4
+{
+    font-size: 1.8em;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 7% 0 2% 0;
+}
+.brodtext
+{
+    width: 50%;
+    margin: 0 auto;
+}
+.brodtext p
+{
+    text-align: justify;
+    font-size: 1.5em;
+    line-height: 1.7em;
+    
+}
+.colorbox
+{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 10% 0 4% 0;
+    margin: 20% 0 0 0;
+    text-align: center;
+}
+.colorbox h1
+{
+    color:white;
+    margin: 0;
+}
+.colorbox .brodtext
+{
+    color: white;
+}
+.colorbox p
+{
+    text-align: center;
+}
+
+.media{
+    width: 100%;
+}
+.video
+{
+    width: 450px;
+    height: 305px;
+    margin: 2% 2%;
+}
+form
+{
+    width: 70%;
+    margin: 0 auto 15px;
+}
+input
+{
+    width: 100%;
+    background: none;
+}
+input[type=text]
+{
+    width: 99%;
+    font-size: 1.5em; 
+    margin: 2% 0;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0 0 0 1%;
+}
+#textarea
+{
+    padding: 0 0 25% 1%; 
+    border: 1px solid black;
+}
+input[type=button], input[type=submit], input[type=reset]
+{
+background-color: black;
+border: none;
+color: white;
+font-size: 1.5em; 
+text-align: center;
+padding: 4% 0;
+margin: 0.5% 0.25%; 
+}
+
+.w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+#slideshow
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: white;
+    text-align: center;
+}
+
+#slideshowtext
+{
+    position:absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+#slideshowtextmobil
+{
+    display: none;
+}
+#pagewrap1 
+{
+    width: 100%;
+    background-color: white;
+    padding: 1% 0 6% 0;
+}
+#mellanrum
+{
+    padding: 9% 0 0 0;
+}
+footer ul {
+    text-align: center;
+    padding: 7% 0 2% 0;
+    
+}
+footer ul li {
+    display: inline; 
+    margin: 0 1.5%;
+}
+
+footer ul li a {
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    color: red;
+}
+footer ul li a:active {
+    color: rgb(1, 1, 102);
+}
+footer p 
+{
+    color: grey;
+    text-align: center;
+    font-size: 0.7em;
+    margin: 0 0 2% 0;
+}
+}
+
+
+
+
+
+
+
+
+    /*dator XX-LARGE layout*/
+@media only screen and (min-width : 1441px) and (max-width : 2560px){
+
+body
+{
+    width: 100%;
+    font: 14px "open sans", Helvetica, Arial, sans-serif;
+    background: white; 
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+                                                    /* The side navigation menu slut */
+#hembg 
+{
+    background-image: url(../bilder/stellaris_background4k.jpg);
+  
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+#kontaktbg 
+{
+    background-image: url(../bilder/fucking_tv_bild_kaffeskit.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+nav ul {
+    text-align: center;
+    padding: 3%;
+}
+nav ul li {
+    display: inline; 
+    margin: 0 1.5%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+nav ul li a:active {
+    color: rgb(1, 1, 102);
+}
+#pic
+{
+    width: 100%;
+    height: 100%;
+}
+.luft
+{
+    margin: 0;
+    padding: 1% 0;
+}
+.luft2
+{
+    margin: 0;
+    padding: 3% 0;
+}
+.luft3
+{
+    margin: 0;
+    padding: 3% 0;
+}
+#logo
+{
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+}
+
+#pagewrap 
+{
+    width: 100%;
+    background-color: white;
+    padding: 25px 0 0 0;
+}
+
+h1, h2, h3, h4
+{
+font-family: "Roboto", Helvetica, Arial, sans-serif;
+font-weight: 700;
+color: black; 
+}
+h1
+{
+    font-size: 5em;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 2% 0 7% 0;
+}
+h2
+{
+    font-size: 1.8em;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 7% 0 2% 0;
+}
+h3
+{
+    font-size: 1.8em;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 7% 0 2% 0;
+}
+h4
+{
+    font-size: 1.8em;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 7% 0 2% 0;
+}
+.brodtext
+{
+    width: 30%;
+    margin: 0 auto;
+}
+.brodtext p
+{
+    text-align: justify;
+    font-size: 1.5em;
+    line-height: 1.7em;
+    
+}
+.colorbox
+{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 7% 0 4% 0;
+    margin: 10% 0 0 0;
+    text-align: center;
+}
+.colorbox h1
+{
+    color:white;
+    margin: 0;
+}
+.colorbox .brodtext
+{
+    color: white;
+}
+.colorbox p
+{
+    text-align: center;
+}
+
+.media{
+    width: 100%;
+}
+.video
+{
+    width: 450px;
+    height: 305px;
+    margin: 2% 2%;
+}
+form
+{
+    width: 70%;
+    margin: 0 auto 15px;
+}
+input
+{
+    width: 100%;
+    background: none;
+}
+input[type=text]
+{
+    width: 99%;
+    font-size: 1.5em; 
+    margin: 2% 0;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0 0 0 1%;
+}
+#textarea
+{
+    padding: 0 0 25% 1%; 
+    border: 1px solid black;
+}
+input[type=button], input[type=submit], input[type=reset]
+{
+background-color: black;
+border: none;
+color: white;
+font-size: 1.5em; 
+text-align: center;
+padding: 4% 0;
+margin: 0.5% 0.25%; 
+}
+
+.w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+#slideshow
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: white;
+    text-align: center;
+}
+
+#slideshow img
+{
+    width: 100%;
+}
+
+#slideshowtext
+{
+    position:absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+#slideshowtextmobil
+{
+    display: none;
+}
+#pagewrap1 
+{
+    width: 100%;
+    background-color: white;
+    padding: 1% 0 6% 0;
+}
+#mellanrum
+{
+    padding: 9% 0 0 0;
+}
+footer ul {
+    text-align: center;
+    padding: 7% 0 2% 0;
+    
+}
+footer ul li {
+    display: inline; 
+    margin: 0 1.5%;
+}
+
+footer ul li a {
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    color: red;
+}
+footer ul li a:active {
+    color: rgb(1, 1, 102);
+}
+footer p 
+{
+    color: grey;
+    text-align: center;
+    font-size: 0.7em;
+    margin: 0 0 2% 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+  /*dator alla skärmar över 2660px centrerad layout*/
+  @media only screen and (min-width : 2561px){
+
+    body
+    {
+        width: 80%;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        margin: 0 auto; 
+        background-color: white;
+        font: 14px "open sans", Helvetica, Arial, sans-serif;
+        background: white; 
+    }
+    /* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+                                                    /* The side navigation menu slut */
+    #hembg 
+    {
+        background-image: url(../bilder/stellaris-backgund4k.jpg);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+    
+    }
+    
+    #kontaktbg 
+    {
+        background-image: url(../bilder/fucking_tv_bild_kaffeskit.jpg);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+    
+    }
+    
+    nav ul {
+        text-align: center;
+        padding: 3%;
+    }
+    nav ul li {
+        display: inline; 
+        margin: 0 1.5%;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    
+    nav ul li a:hover {
+        color: red;
+    }
+    nav ul li a:active {
+        color: rgb(1, 1, 102);
+    }
+    #pic
+    {
+        width: 200%;
+        height: 200%;
+        
+    }
+    .luft
+    {
+        margin: 0;
+        padding: 2% 0;
+    }
+    .luft2
+    {
+        margin: 0;
+        padding: 3% 0;
+    }
+    .luft3
+{
+    margin: 0;
+    padding: 3% 0;
+}
+    #logo
+    {
+        width: 35%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    #pagewrap 
+    {
+        width: 100%;
+        background-color: white;
+        padding: 25px 0 0 0;
+    }
+    
+    h1, h2, h3, h4
+    {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: black; 
+    }
+    h1
+    {
+        font-size: 5em;
+        text-align: center;
+        line-height: 1.5em;
+        margin: 2% 0 7% 0;
+    }
+    h2
+    {
+        font-size: 1.8em;
+        text-align: left;
+        line-height: 1.5em;
+        margin: 7% 0 2% 0;
+    }
+    h3
+    {
+        font-size: 1.8em;
+        text-align: left;
+        line-height: 1.5em;
+        margin: 7% 0 2% 0;
+    }
+    h4
+    {
+        font-size: 1.8em;
+        text-align: left;
+        line-height: 1.5em;
+        margin: 7% 0 2% 0;
+    }
+    .brodtext
+    {
+        width: 30%;
+        margin: 0 auto;
+    }
+    .brodtext p
+    {
+        text-align: justify;
+        font-size: 1.5em;
+        line-height: 1.7em;
+        
+    }
+    .colorbox
+    {
+        background-color: rgba(0, 0, 0, 1);
+        padding: 7% 0 4% 0;
+        margin: 10% 0 0 0;
+        text-align: center;
+    }
+    .colorbox h1
+    {
+        color:white;
+        margin: 0;
+    }
+    .colorbox .brodtext
+    {
+        color: white;
+    }
+    .colorbox p
+    {
+        text-align: center;
+    }
+    
+    .media{
+        width: 100%;
+    }
+    .video
+    {
+        width: 450px;
+        height: 305px;
+        margin: 2% 2%;
+    }
+    form
+    {
+        width: 70%;
+        margin: 0 auto 15px;
+    }
+    input
+    {
+        width: 100%;
+        background: none;
+    }
+    input[type=text]
+    {
+        width: 99%;
+        font-size: 1.5em; 
+        margin: 2% 0;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 0 0 0 1%;
+    }
+    #textarea
+    {
+        padding: 0 0 25% 1%; 
+        border: 1px solid black;
+    }
+    input[type=button], input[type=submit], input[type=reset]
+    {
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 1.5em; 
+    text-align: center;
+    padding: 4% 0;
+    margin: 0.5% 0.25%; 
+    }
+    
+    .w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+    
+    #slideshow
+    {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: white;
+        text-align: center;
+    }
+    
+    #slideshow img
+    {
+        width: 100%;
+    }
+    
+    #slideshowtext
+    {
+        position:absolute;
+        left: 0;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+    }
+    #slideshowtextmobil
+    {
+        display: none;
+    }
+    #pagewrap1 
+    {
+        width: 100%;
+        background-color: white;
+        padding: 1% 0 6% 0;
+    }
+    #mellanrum
+{
+    padding: 9% 0 0 0;
+}
+    footer ul {
+        text-align: center;
+        padding: 7% 0 2% 0;
+        
+    }
+    footer ul li {
+        display: inline; 
+        margin: 0 1.5%;
+    }
+    
+    footer ul li a {
+        color: darkslategray;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: bold;
+    }
+    
+    footer ul li a:hover {
+        color: red;
+    }
+    footer ul li a:active {
+        color: rgb(1, 1, 102);
+    }
+    footer p 
+    {
+        color: grey;
+        text-align: center;
+        font-size: 0.7em;
+        margin: 0 0 2% 0;
+    }
+    }
