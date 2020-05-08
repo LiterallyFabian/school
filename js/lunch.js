@@ -1,11 +1,38 @@
-let food = [
-  { Dag: "Måndag", Normal: "Pyttipanna, serveras med rödbetor", Vegetariskt: "Vegetarisk pytt, serveras med rödbetor" },
-  { Dag: "Tisdag", Normal: "Pasta Bolognese, serveras med riven ost", Vegetariskt: "Linssoppa, serveras med bröd och pålägg" },
-  { Dag: "Onsdag", Normal: "Potatisbullar, serveras med keso och lingonsylt", Vegetariskt: ""},
-  { Dag: "Torsdag", Normal: "Panerad fisk, serveras med kokt potatis och sås", Vegetariskt: "Rödbetsbiffar, serveras med kokt potatis och kall sås" },
-  { Dag: "Fredag", Normal: "Färsbiffar, serveras med bulgur och tomatsalsa", Vegetariskt: "Sojabiffar, serveras med bulgur och tomatsalsa" },
-  { Dag: "Lördag", Normal: "Stängt", Vegetariskt: ""},
-  { Dag: "Söndag", Normal: "Stängt", Vegetariskt: ""} //l�mnar blank f�r att aligna r�tt
+let food = [{
+    Dag: "Måndag",
+    Normal: "Pyttipanna, serveras med rödbetor",
+    Vegetariskt: "Vegetarisk pytt, serveras med rödbetor"
+  },
+  {
+    Dag: "Tisdag",
+    Normal: "Pasta Bolognese, serveras med riven ost",
+    Vegetariskt: "Linssoppa, serveras med bröd och pålägg"
+  },
+  {
+    Dag: "Onsdag",
+    Normal: "Potatisbullar, serveras med keso och lingonsylt",
+    Vegetariskt: ""
+  },
+  {
+    Dag: "Torsdag",
+    Normal: "Panerad fisk, serveras med kokt potatis och sås",
+    Vegetariskt: "Rödbetsbiffar, serveras med kokt potatis och kall sås"
+  },
+  {
+    Dag: "Fredag",
+    Normal: "Färsbiffar, serveras med bulgur och tomatsalsa",
+    Vegetariskt: "Sojabiffar, serveras med bulgur och tomatsalsa"
+  },
+  {
+    Dag: "Lördag",
+    Normal: "Stängt",
+    Vegetariskt: ""
+  },
+  {
+    Dag: "Söndag",
+    Normal: "Stängt",
+    Vegetariskt: ""
+  } //l�mnar blank f�r att aligna r�tt
 ];
 
 function generateTableHead(table, data) {
