@@ -1,0 +1,1235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/ 
+
+ /* NOLLSTÄLLNING AV CSS I WEBLÄSARE! BÖRJAN*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*NOLLSTÄLLNING AV CSS I WEBLÄSARE! SLUT*/
+
+
+/*MOBIL LAYOUT*/
+
+@media only screen and (max-width : 768px){
+    
+    body{
+        width: 100%;
+        font: 17px "Source Sans Pro", Helvetica, Arial, sans-serif;
+        background: white;
+    }
+    
+    #hembg {
+        background-image: url(../bilder/blossomreallysmall.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+
+    
+    
+
+
+    nav ul {
+        text-align: center;
+        padding: 6% 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 2%;
+    }
+    
+    nav ul li a {                           /*4 länkarna i toppen*/
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: lightblue;
+        text-shadow: 3px 3px #10590b;
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        color:skyblue;
+    }
+    nav ul li a:active {
+        color:deepskyblue;
+    }
+    
+    .luft {
+        margin: 0;
+        padding: 17% 0;
+    }
+    .mindreluft {
+        margin: 0;
+        padding: 6.9% 0;
+    }
+    #logo{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    #pagewrap {
+        width: 100%;
+        background-color: #FEC2F6;
+        padding: 8% 0 0 0;
+    }
+    h1,h2,h3,h4,h5,h6,h7{
+        font-family: "Sniglet", Helvetica, Arial, sans-serif;
+        font-weight: 900;
+        color: darkmagenta;
+    }
+    h1{ /*3 SNABBA TITEL*/
+        font-size: 1.882em;
+        text-align: center;
+        line-height: 1.5em;
+        margin: 2% 0 10% 0;
+    }
+    #memestitle h1{ /*MEMES TITEL*/
+        font-family: "Varela Round", Helvetica, Arial, sans-serif;
+        font-size: 2.5em;
+        text-align: center;
+        line-height: 1.5em;
+        margin: 2% 0 10% 0;
+        font-weight: 900;
+        color: #f2a5cf;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    h2{
+        font-size: 1.276em;
+        text-align: left;
+        line-height: 1.5em;
+        margin: 4% 0 2% 0;
+    }
+    .brodtext{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .brodtext p {
+        text-align: justify;
+        line-height: 1.5em;
+        font-size: 1.1em;
+    }
+    .colorbox{
+        background-color: #fc90ee;
+        padding: 4% 0 4% 0;
+        margin: 5% 0 0 0%;
+    }
+    
+    .colorbox p{
+        color: white;
+        text-align: center;
+    } 
+    
+    .media{
+        width: 98%;
+        line-height: 3em;
+        text-align: center;
+    }
+    .video{
+        width: 372px;
+        height: 269px;
+    }
+    form{
+        margin: 0 0 10% 0;
+    }
+    input{
+        width: 100%;
+        background: #20b3b333; 
+    }
+    input[type=text]{
+        color: #8ceeff;
+        text-shadow: 1px 2px #1d5b66;
+        font-family: "Sniglet", Helvetica, Arial, sans-serif;
+        text-align: center;
+        width: 99%;
+        font-size:1.5em;
+        margin: 2% 0;
+        padding: 0 0 0 1%;
+        border: 1px solid black;
+    }
+    #textarea{
+        padding: 0 0 20% 1%;
+        border: 1px solid black;
+    }
+    input[type=button], input[type=submit], input[type=reset]{
+        background-color: black;
+        font-family: "Sniglet", Helvetica, Arial, sans-serif;
+        color: white;
+        border: 3px solid darkmagenta;
+        font-size: 1.6em;
+        padding: 1% 0;
+        margin: 2% 0 50% 0;
+    }
+    #slideshow{
+        display: none;
+    }
+    #slideshowtextmobil{
+        width: 80%;
+        padding: 50% 10%;
+        background-image: url(../bilder/garden-s.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: local;
+    }
+    #slideshowtextmobil h1{ /*Bildspel quote*/
+        line-height: 0.8em;
+        color: white;
+        text-shadow: 3px 2px #a30bb0;
+        font-weight: 100;
+    }
+    #slideshowtextmobil h2{ /*Albert einstein*/
+        line-height: 0.8em;
+        color: white;
+        text-shadow: 3px 2px #a30bb0;
+        font-weight: 100;
+        padding: 0 0 0 1.5em;
+        font-size: 1.6em;
+    }
+    footer{
+        padding: 3%;
+        background-color: #fc90ee;
+    }
+    footer ul {
+        text-align: center;
+        padding: 6% 0 0 0;
+    }
+    
+    footer ul li {
+        display: inline;
+        margin: 0 2%;
+    }
+    
+    footer ul li a {
+        font-size: 1.3em;
+        font-weight: bold;
+        color: #330066;
+        text-decoration: none;
+    }
+    footer ul li a:hover {
+        color:#51069c;
+    }
+    footer ul li a:active {
+        color:#000000;
+    }
+    footer p{  /*Adress*/
+        text-align: center;
+        color: #fce0ff;
+        text-decoration: none;
+    }
+    footer p a{  /*Adress*/
+        color: #fce0ff;
+        text-decoration: none;
+    }
+}
+
+/*
+
+
+
+
+
+
+
+
+LAPTOP LAYOUT
+
+
+
+
+
+
+
+*/
+
+@media only screen and (min-width : 769px) and (max-width : 1024px){
+    
+    body{
+        width: 100%;
+        font: 17px "Source Sans Pro", Helvetica, Arial, sans-serif;
+        background: white;
+    }
+    
+    #hembg {
+        background-image: url(../bilder/blossomlaptop.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+
+
+    nav ul {
+        text-align: center;
+        padding: 6% 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 2%;
+    }
+    
+    nav ul li a {                           /*4 länkarna i toppen*/
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: lightblue;
+        text-shadow: 3px 3px #10590b;
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        color:skyblue;
+    }
+    nav ul li a:active {
+        color:deepskyblue;
+    }
+    
+    .luft {
+        margin: 0;
+        padding: 1% 0;
+    }
+    .mindreluft {
+        margin: 0;
+        padding: 6.9% 0;
+    }
+    #logo{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+    #pagewrap {
+        width: 100%;
+        background-color: #FEC2F6;
+        padding: 8% 0 0 0;
+    }
+    h1,h2,h3,h4,h5,h6,h7{
+        font-family: "Sniglet", Helvetica, Arial, sans-serif;
+        font-weight: 900;
+        color: darkmagenta;
+    }
+    h1{ /*3 SNABBA TITEL*/
+        font-size: 1.882em;
+        text-align: center;
+        line-height: 1.5em;
+        margin: 2% 0 10% 0;
+    }
+    #memestitle h1{ /*MEMES TITEL*/
+        font-family: "Varela Round", Helvetica, Arial, sans-serif;
+        font-size: 3em;
+        text-align: center;
+        line-height: 1.5em;
+        margin: 2% 0 10% 0;
+        font-weight: 900;
+        color: #f2a5cf;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    h2{
+        font-size: 1.276em;
+        text-align: left;
+        line-height: 1.5em;
+        margin: 4% 0 2% 0;
+    }
+    .brodtext{
+        width: 69%;
+        margin: 0 auto;
+    }
+    .brodtext p {
+        text-align: justify;
+        line-height: 1.5em;
+        font-size: 1.1em;
+    }
+    .colorbox{
+        background-color: #fc90ee;
+        padding: 4% 0 4% 0;
+        margin: 5% 0 0 0%;
+    }
+    
+    .colorbox p{
+        color: white;
+        text-align: center;
+    } 
+    
+    .media{
+        width: 98%;
+        line-height: 3em;
+        text-align: center;
+    }
+    .video{
+        width: 360px;
+        height: 270px;
+    }
+    form{
+        width: 100%;
+        margin: 0 auto 15%;
+    }
+    input{
+        width: 100%;
+        background: #20b3b333; 
+    }
+    input[type=text]{
+        color: #8ceeff;
+        text-shadow: 1px 2px #1d5b66;
+        font-family: "Sniglet", Helvetica, Arial, sans-serif;
+        text-align: center;
+        width: 99%;
+        font-size:1.5em;
+        margin: 2% 0;
+        padding: 0 0 0 1%;
+        border: 1px solid black;
+    }
+    #textarea{
+        padding: 0 0 20% 1%;
+        border: 1px solid black;
+    }
+    input[type=button], input[type=submit], input[type=reset]{
+        background-color: black;
+        font-family: "Sniglet", Helvetica, Arial, sans-serif;
+        color: white;
+        border: 3px solid darkmagenta;
+        font-size: 1.6em;
+        padding: 1% 0;
+        margin: 2% 0 50% 0;
+    }
+    .w3-animate-fading{
+        animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
+    }
+    #slideshow{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: aliceblue;
+        text-align: center;
+    }
+    #slideshowtextmobil{
+        display: none;
+    }
+    #slideshow img{
+        width: 100%
+    }
+    #slideshowtext{
+        position: absolute;
+        left: 0;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+    }
+    #slideshowtext h1{ /*Bildspel quote*/
+        line-height: 0.5em;
+        color: white;
+        text-shadow: 3px 2px #a30bb0;
+        font-weight: 100;
+    }
+    #slideshowtext h2{ /*Albert einstein*/
+        line-height: 0.8em;
+        color: white;
+        text-shadow: 3px 2px #a30bb0;
+        font-weight: 100;
+        padding: 0 0 0 9em;
+        font-size: 1.6em;
+    }
+    footer{
+        padding: 3%;
+        background-color: #fc90ee;
+    }
+    footer ul {
+        text-align: center;
+        padding: 6% 0 0 0;
+    }
+    
+    footer ul li {
+        display: inline;
+        margin: 0 2%;
+    }
+    
+    footer ul li a {
+        font-size: 1.3em;
+        font-weight: bold;
+        color: #330066;
+        text-decoration: none;
+    }
+    footer ul li a:hover {
+        color:#51069c;
+    }
+    footer ul li a:active {
+        color:#000000;
+    }
+    footer p{  /*Adress*/
+        text-align: center;
+        color: #fce0ff;
+        text-decoration: none;
+    }
+    footer p a{  /*Adress*/
+        color: #fce0ff;
+        text-decoration: none;
+    }
+}
+/*
+
+
+
+
+
+
+
+
+LARGE MONITOR LAYOUT
+
+
+
+
+
+
+
+*/
+
+@media only screen and (min-width : 1025px) and (max-width : 1440px){
+    
+    body{
+        width: 100%;
+        font: 17px "Source Sans Pro", Helvetica, Arial, sans-serif;
+        background: white;
+    }
+    
+    #hembg {
+        background-image: url(../bilder/blossomlaptopL.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+
+
+    nav ul {
+        text-align: center;
+        padding: 6% 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 2%;
+    }
+    
+    nav ul li a {                           /*4 länkarna i toppen*/
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: lightblue;
+        text-shadow: 3px 3px #10590b;
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        color:skyblue;
+    }
+    nav ul li a:active {
+        color:deepskyblue;
+    }
+    
+    .luft {
+        margin: 0;
+        padding: 1% 0;
+    }
+    .mindreluft {
+        margin: 0;
+        padding: 6.9% 0;
+    }
+    #logo{
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    #pagewrap {
+        width: 100%;
+        background-color: #FEC2F6;
+        padding: 8% 0 0 0;
+    }
+    h1,h2,h3,h4,h5,h6,h7{
+        font-family: "Sniglet", Helvetica, Arial, sans-serif;
+        font-weight: 900;
+        color: darkmagenta;
+    }
+    h1{ /*3 SNABBA TITEL*/
+        font-size: 1.882em;
+        text-align: center;
+        line-height: 1.5em;
+        margin: 2% 0 10% 0;
+    }
+    #memestitle h1{ /*MEMES TITEL*/
+        font-family: "Varela Round", Helvetica, Arial, sans-serif;
+        font-size: 3em;
+        text-align: center;
+        line-height: 1.5em;
+        margin: 2% 0 10% 0;
+        font-weight: 900;
+        color: #f2a5cf;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    h2{
+        font-size: 1.276em;
+        text-align: left;
+        line-height: 1.5em;
+        margin: 4% 0 2% 0;
+    }
+    .brodtext{
+        width: 49%;
+        margin: 0 auto;
+    }
+    .brodtext p {
+        text-align: justify;
+        line-height: 1.5em;
+        font-size: 1.1em;
+    }
+    .colorbox{
+        background-color: #fc90ee;
+        padding: 4% 0 4% 0;
+        margin: 5% 0 0 0%;
+    }
+    
+    .colorbox p{
+        color: white;
+        text-align: center;
+    } 
+    
+    .media{
+        width: 98%;
+        line-height: 3em;
+        text-align: center;
+    }
+    .video{
+        width: 495px;
+        height: 335px;
+    }
+    form{
+        width: 100%;
+        margin: 0 auto 15%;
+    }
+    input{
+        width: 100%;
+        background: #20b3b333; 
+    }
+    input[type=text]{
+        color: #8ceeff;
+        text-shadow: 1px 2px #1d5b66;
+        font-family: "Sniglet", Helvetica, Arial, sans-serif;
+        text-align: center;
+        width: 99%;
+        font-size:1.5em;
+        margin: 2% 0;
+        padding: 0 0 0 1%;
+        border: 1px solid black;
+    }
+    #textarea{
+        padding: 0 0 20% 1%;
+        border: 1px solid black;
+    }
+    input[type=button], input[type=submit], input[type=reset]{
+        background-color: black;
+        font-family: "Sniglet", Helvetica, Arial, sans-serif;
+        color: white;
+        border: 3px solid darkmagenta;
+        font-size: 1.6em;
+        padding: 1% 0;
+        margin: 2% 0 50% 0;
+    }
+    .w3-animate-fading{
+        animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
+    }
+    #slideshow{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: aliceblue;
+        text-align: center;
+    }
+    #slideshowtextmobil{
+        display: none;
+    }
+    #slideshow img{
+        width: 100%
+    }
+    #slideshowtext{
+        position: absolute;
+        left: 0;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+    }
+    #slideshowtext h1{ /*Bildspel quote*/
+        line-height: 0.5em;
+        font-size: 3em;
+        color: white;
+        text-shadow: 3px 2px #a30bb0;
+        font-weight: 300;
+    }
+    #slideshowtext h2{ /*Albert einstein*/
+        line-height: 0.8em;
+        color: white;
+        text-shadow: 3px 2px #a30bb0;
+        font-weight: 100;
+        padding: 0 0 0 12em;
+        font-size: 2em;
+    }
+    footer{
+        padding: 3%;
+        background-color: #fc90ee;
+    }
+    footer ul {
+        text-align: center;
+        padding: 6% 0 0 0;
+    }
+    
+    footer ul li {
+        display: inline;
+        margin: 0 2%;
+    }
+    
+    footer ul li a {
+        font-size: 1.3em;
+        font-weight: bold;
+        color: #330066;
+        text-decoration: none;
+    }
+    footer ul li a:hover {
+        color:#51069c;
+    }
+    footer ul li a:active {
+        color:#000000;
+    }
+    footer p{  /*Adress*/
+        text-align: center;
+        color: #fce0ff;
+        text-decoration: none;
+    }
+    footer p a{  /*Adress*/
+        color: #fce0ff;
+        text-decoration: none;
+    }
+}
+/*
+
+
+
+
+
+
+
+
+1440p MONITOR LAYOUT
+
+
+
+
+
+
+
+*/
+
+@media only screen and (min-width : 1441px) and (max-width : 2560px){
+    
+    body{
+        width: 100%;
+        font: 17px "Source Sans Pro", Helvetica, Arial, sans-serif;
+        background: white;
+    }
+    
+    #hembg {
+        background-image: url(../bilder/laptop4k.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+
+    nav ul {
+        text-align: center;
+        padding: 5% 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 3%;
+    }
+    
+    nav ul li a {                           /*4 länkarna i toppen*/
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: lightblue;
+        text-shadow: 3px 3px #10590b;
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        color:skyblue;
+    }
+    nav ul li a:active {
+        color:deepskyblue;
+    }
+    
+    .luft {
+        margin: 0;
+        padding: 2% 0;
+    }
+    .mindreluft {
+        margin: 0;
+        padding: 6% 0;
+    }
+    #logo{
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+    }
+    #pagewrap {
+        width: 100%;
+        background-color: #FEC2F6;
+        padding: 5% 0 2% 0;
+    }
+    h1,h2,h3,h4,h5,h6,h7{
+        font-family: "Sniglet", Helvetica, Arial, sans-serif;
+        font-weight: 900;
+        color: darkmagenta;
+    }
+    h1{ /*3 SNABBA TITEL*/
+        font-size: 1.882em;
+        text-align: center;
+        line-height: 1.5em;
+        margin: 2% 0 2% 0;
+    }
+    #memestitle h1{ /*MEMES TITEL*/
+        font-family: "Varela Round", Helvetica, Arial, sans-serif;
+        font-size: 3em;
+        text-align: center;
+        line-height: 1.5em;
+        margin: 2% 0 10% 0;
+        font-weight: 900;
+        color: #f2a5cf;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    h2{
+        font-size: 1.276em;
+        text-align: left;
+        line-height: 1.5em;
+        margin: 4% 0 2% 0;
+    }
+    .brodtext{
+        width: 30%;
+        margin: 0 auto;
+    }
+    .brodtext p {
+        text-align: justify;
+        line-height: 1.5em;
+        font-size: 1.1em;
+    }
+    .colorbox{
+        background-color: #fc90ee;
+        padding: 4% 0 4% 0;
+        margin: 5% 0 0 0%;
+    }
+    
+    .colorbox p{
+        color: white;
+        text-align: center;
+    } 
+    
+    .media{
+        width: 98%;
+        line-height: 3em;
+        text-align: center;
+    }
+    .video{
+        width: 450px;
+        height: 305px;
+    }
+    form{
+        width: 100%;
+        margin: 0 auto 15%;
+    }
+    input{
+        width: 100%;
+        background: #20b3b333;
+    }
+    input[type=text]{
+        color: #8ceeff;
+        text-shadow: 1px 2px #1d5b66;
+        font-family: "Sniglet", Helvetica, Arial, sans-serif;
+        text-align: center;
+        width: 99%;
+        font-size:1.5em;
+        margin: 2% 0;
+        padding: 0 0 0 1%;
+        border: 1px solid black;
+    }
+    #textarea{
+        padding: 0 0 20% 1%;
+        border: 1px solid black;
+    }
+    input[type=button], input[type=submit], input[type=reset]{
+        background-color: black;
+        font-family: "Sniglet", Helvetica, Arial, sans-serif;
+        color: white;
+        border: 3px solid darkmagenta;
+        font-size: 1.6em;
+        padding: 1% 0;
+        margin: 2% 0 50% 0;
+    }
+    .w3-animate-fading{
+        animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
+    }
+    #slideshow{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: aliceblue;
+        text-align: center;
+    }
+    #slideshowtextmobil{
+        display: none;
+    }
+    #slideshow img{
+        width: 100%
+    }
+    #slideshowtext{
+        position: absolute;
+        left: 0;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+    }
+    #slideshowtext h1{ /*Bildspel quote*/
+        line-height: 0.5em;
+        font-size: 3em;
+        color: white;
+        text-shadow: 3px 2px #a30bb0;
+        font-weight: 300;
+    }
+    #slideshowtext h2{ /*Albert einstein*/
+        line-height: 0.8em;
+        color: white;
+        text-shadow: 3px 2px #a30bb0;
+        font-weight: 100;
+        padding: 0 0 0 15em;
+        font-size: 2em;
+    }
+    footer{
+        padding: 1% 0 2% 0%;
+        background-color: #fc90ee;
+    }
+    footer ul {
+        text-align: center;
+        padding: 4% 0 0 0;
+    }
+    
+    footer ul li {
+        display: inline;
+        margin: 0 2%;
+    }
+    
+    footer ul li a {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #6a02d1;
+        text-shadow: 1.8px 1px #530c99;
+        text-decoration: none;
+    }
+    footer ul li a:hover {
+        color:#51069c;
+    }
+    footer ul li a:active {
+        color:#000000;
+    }
+    footer p{  /*Adress*/
+        padding: 1% 0 0 0;
+        text-align: center;
+        color: #fce0ff;
+        text-decoration: none;
+    }
+    footer p a{  /*Adress*/
+        color: #fce0ff;
+        text-decoration: none;
+    }
+}
+/*
+
+
+
+
+
+
+
+
+4k MONITOR LAYOUT
+
+
+
+
+
+
+
+*/
+
+@media only screen and (min-width : 2561px){
+    
+    body{
+        width: 80%;
+        border: 0 1px solid black;
+        border-left: 0 1px solid black;
+        border-right: 0 1px solid black;
+        margin: 0 auto;
+        font: 17px "Source Sans Pro", Helvetica, Arial, sans-serif;
+        background: #ffe6ff;
+    }
+    
+    #hembg {
+        background-image: url(../bilder/laptop4k.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+
+    nav ul {
+        text-align: center;
+        padding: 5% 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 3%;
+    }
+    
+    nav ul li a {                           /*4 länkarna i toppen*/
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: lightblue;
+        text-shadow: 3px 3px #10590b;
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        color:skyblue;
+    }
+    nav ul li a:active {
+        color:deepskyblue;
+    }
+    
+    .luft {
+        margin: 0;
+        padding: 2% 0;
+    }
+    .mindreluft {
+        margin: 0;
+        padding: 6% 0;
+    }
+    #logo{
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+    }
+    #pagewrap {
+        width: 100%;
+        background-color: #FEC2F6;
+        padding: 5% 0 2% 0;
+    }
+    h1,h2,h3,h4,h5,h6,h7{
+        font-family: "Sniglet", Helvetica, Arial, sans-serif;
+        font-weight: 900;
+        color: darkmagenta;
+    }
+    h1{ /*3 SNABBA TITEL*/
+        font-size: 1.882em;
+        text-align: center;
+        line-height: 1.5em;
+        margin: 2% 0 2% 0;
+    }
+    #memestitle h1{ /*MEMES TITEL*/
+        font-family: "Varela Round", Helvetica, Arial, sans-serif;
+        font-size: 3em;
+        text-align: center;
+        line-height: 1.5em;
+        margin: 2% 0 10% 0;
+        font-weight: 900;
+        color: #f2a5cf;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    h2{
+        font-size: 1.276em;
+        text-align: left;
+        line-height: 1.5em;
+        margin: 4% 0 2% 0;
+    }
+    .brodtext{
+        width: 30%;
+        margin: 0 auto;
+    }
+    .brodtext p {
+        text-align: justify;
+        line-height: 1.5em;
+        font-size: 1.1em;
+    }
+    .colorbox{
+        background-color: #fc90ee;
+        padding: 4% 0 4% 0;
+        margin: 5% 0 0 0%;
+    }
+    
+    .colorbox p{
+        color: white;
+        text-align: center;
+    } 
+    
+    .media{
+        width: 98%;
+        line-height: 3em;
+        text-align: center;
+    }
+    .video{
+        width: 450px;
+        height: 305px;
+    }
+    form{
+        width: 100%;
+        margin: 0 auto 15%;
+    }
+    input{
+        width: 100%;
+        background: #20b3b333;
+    }
+    input[type=text]{
+        color: #8ceeff;
+        text-shadow: 1px 2px #1d5b66;
+        font-family: "Sniglet", Helvetica, Arial, sans-serif;
+        text-align: center;
+        width: 99%;
+        font-size:1.5em;
+        margin: 2% 0;
+        padding: 0 0 0 1%;
+        border: 1px solid black;
+    }
+    #textarea{
+        padding: 0 0 20% 1%;
+        border: 1px solid black;
+    }
+    input[type=button], input[type=submit], input[type=reset]{
+        background-color: black;
+        font-family: "Sniglet", Helvetica, Arial, sans-serif;
+        color: white;
+        border: 3px solid darkmagenta;
+        font-size: 1.6em;
+        padding: 1% 0;
+        margin: 2% 0 50% 0;
+    }
+    .w3-animate-fading{
+        animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
+    }
+    #slideshow{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: aliceblue;
+        text-align: center;
+    }
+    #slideshowtextmobil{
+        display: none;
+    }
+    #slideshow img{
+        width: 100%
+    }
+    #slideshowtext{
+        position: absolute;
+        left: 0;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+    }
+    #slideshowtext h1{ /*Bildspel quote*/
+        line-height: 0.5em;
+        font-size: 3em;
+        color: white;
+        text-shadow: 3px 2px #a30bb0;
+        font-weight: 300;
+    }
+    #slideshowtext h2{ /*Albert einstein*/
+        line-height: 0.8em;
+        color: white;
+        text-shadow: 3px 2px #a30bb0;
+        font-weight: 100;
+        padding: 0 0 0 15em;
+        font-size: 2em;
+    }
+    footer{
+        padding: 1% 0 2% 0%;
+        background-color: #fc90ee;
+    }
+    footer ul {
+        text-align: center;
+        padding: 4% 0 0 0;
+    }
+    
+    footer ul li {
+        display: inline;
+        margin: 0 2%;
+    }
+    
+    footer ul li a {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #6a02d1;
+        text-shadow: 1.8px 1px #530c99;
+        text-decoration: none;
+    }
+    footer ul li a:hover {
+        color:#51069c;
+    }
+    footer ul li a:active {
+        color:#000000;
+    }
+    footer p{  /*Adress*/
+        padding: 1% 0 0 0;
+        text-align: center;
+        color: #fce0ff;
+        text-decoration: none;
+    }
+    footer p a{  /*Adress*/
+        color: #fce0ff;
+        text-decoration: none;
+    }
