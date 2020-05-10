@@ -1,4 +1,4 @@
-websites from web development 1 on [Cybergymnasiet](https://cybergymnasiet.se)
+Websites from web development 1 on [Cybergymnasiet](https://cybergymnasiet.se).
 
 
 # Sites 🌐
