@@ -1,114 +1,123 @@
-    <!DOCTYPE html>
+﻿
+<!DOCTYPE html>
+<!--SajberGymnasiet-->
+<html lang="sv">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sniglet&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="stylesheets/768p.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/1600p.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/2560p.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/4k.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/global.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Hamburger icons-->
+  <script src="js/hamburger.js"></script>
+  <script src="js/autolunch.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" http-equiv="Content-Language" content="sv">
+  <title>SajberGymnasiet</title>
+</head>
 
-    <html lang="en">
-
-    <head>
-      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Sniglet&display=swap" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="stylesheets/design1.css">
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Fabian Lindgren</title>
-
-    </head>
-
-    <body>
-      <div id="hembg">
-        <header>
-
-          <nav>
-
-            <ul>
-              <li><a href="index.html">HOME</a></li>
-              <li><a href=#pagewrap>BREAD FACTS</a></li>
-              <li><a href=#video>MEMES</a></li>
-              <li><a href="kontakt.html">CONTACT</a></li>
-            </ul>
-
-          </nav>
-
-          <div class="luft"></div>
-          <img src="bilder/logo.png" id="logo" alt="Logga">
-          <div class="luft"></div>
-
-        </header>
-        <div id="pagewrap">
-
-
-          <h1>3 quick facts about bread</h1>
-          <div class="brodtext">
-            <h2>What does the Bread Scale mean?</h2>
-            <p>The Bread Scale is a Scientific tool devised by Isaac Newton in 1701 for estimating whether something is bread or not bread. In 1949, Isaac received the Science Nobel Prize for his development of the scale. A popular case where the
-              scale was used is during the moon landing, where Neil Armstrong used it to determinate if the moon was bread or not. Unfortunately, his theory was not right.</p>
-            <h2>Bread usages on the web</h2>
-            <p>Bread is heavliy used in the online world. One classic example is when websites uses breadcrumbs as a navigational aid in UIs and web pages to help the user track and maintain awareness of their locations within programs. Another
-              classic example is the famous Swedish brödtext (breadtext).</p>
-            <h2>The FitnessBread™ Baking Test</h2>
-            <p>The FitnessBread™ Baking Test is a multistage baking test that progressively gets more difficult as it continues. The 20 minute test will begin in 30 seconds. Line up at the start. The baking speed starts slowly, but gets faster each
-              minute after you hear this signal. [beep] A single loaf should be completed each time you hear this sound. [ding] Remember to bake with healthy ingredients, and bake as long as possible. The second time you fail to complete a loaf
-              before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.</p>
-          </div>
-
-          <div class="colorbox" id="video">
-
-            <h1>Secret meme collection</h1>
-            <div class="brodtext">
-              <p>Seems like you need some memes buddy</p>
-            </div>
-            <div class="media">
-              <iframe class="video" src="https://www.youtube.com/embed/LAmyidS61IM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <!--T H A N O S C A R-->
-              <iframe class="video" src="https://www.youtube-nocookie.com/embed/QoCcDi8zH8M?rel=0&amp;showinfo=0;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <!--U got that-->
-              <iframe class="video" src="https://www.youtube.com/embed/aSPDELydGos" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- Peppa pig-->
-              <video controls class="video">
-                <source src="filmer/anime.mp4" type="video/mp4">
-                <source src="filmer/anime.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <!--MEDIA-->
-          </div>
-          <!--COLORBOX-->
-
-          <div id="slideshow">
-
-            <img class="mySlides w3-animate-fading" src="bilder/original/bildspel1.png" alt="bild1">
-            <img class="mySlides w3-animate-fading" src="bilder/original/bildspel2.png" alt="bild2">
-            <img class="mySlides w3-animate-fading" src="bilder/original/bildspel3.png" alt="bild3">
-            <script src="javascript/slideshow.js"></script>
-
-            <div id="slideshowtext">
-              <h1>"Rocks are just big sand"</h1>
-              <h2> - Albert Einstein</h2>
-            </div>
-            <!--SLIDESHOWTEXT END-->
-
-          </div>
-          <!--SLIDESHOW END-->
-
-          <div id="slideshowtextmobil">
-            <h1>"Rocks are just big sand"</h1>
-            <h2> - Albert Einstein</h2>
-          </div>
-          <!--SLIDESHOWTEXTMOBIL END-->
+<body>
+  <div id="hembg">
+    <header>
+      <div id="dotcom"></div>
+      <!-- Top Navigation Menu -->
+      <div class="topnav"> <a href="index.html" class="active">SajberGymnasiet</a>
+        <!--
+                Navigation links (hidden by default) -->
+        <div id="myLinks"> <a href="schema.html">SCHEMAN</a> <a href="info.html">SKOLINFO</a> <a href="index.html#titletext">LUNCH</a> <a href="kontakt.html">KONTAKT</a> <a href="https://github.com/LiterallyFabian/school">SOURCE</a>
 
         </div>
-        <!--PAGEWRAP END-->
+        <!-- "Hamburger menu" / "Bar icon" to toggle the
+                    navigation links --> <a href="javascript:void(0);" class="icon" onclick="hamburger()"> <i class="fa
+                    fa-bars"></i> </a>
+      </div> <a href="index.html"><img src="img/logo.png" alt="loggan" id="logo"></a>
+      <!-- <img
+                    src="img/logo.png" id="logo" alt="Logga" >  -->
+      <div class="mycketluft"></div>
+      <h1 id="slogan">"Sajber - Bättre än alla andra"</h1>
+      <div class="mycketluft"></div>
+
+    </header>
+    <div class="colorbox" id="reviews">
+
+      <h1 id="titles">Varför vi är bäst!</h1>
+      <div class="reviewundertext">
+        <p>Ifall du inte redan var
+          övertalad...</p>
       </div>
-      <!--HEMBG END-->
+      <h5>"Jag har gått här i två veckor och jag känner mig redan som hemma i min Sajberfamilj. 10/10"</h5>
+      <h5>"Denna skola är bäst för att skolledningen planerar allting väldigt bra. Redan första dagen fick jag ett skåp!"</h5>
+      <h5>"Tjänade 100kr för att rektorn bad mig skriva en positiv & granskad 5-stjärnig recension, fatta hur snällt!"</h5>
+      <h5>"Ludwig. Nuff said"</h5>
+      <h5>"Lunchen är fantastisk, och nu med vår nya matsal finns det alltid platsför umgänge när man käkar!"</h5>
 
-      <footer>
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href=#pagewrap>BREAD FACTS</a></li>
-          <li><a href=#video>MEMES</a></li>
-          <li><a href="kontakt.html">CONTACT</a></li>
-        </ul>
-        <p><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs">Vanadisvägen 9B, 113 46 Stockholm</a></p>
-        <P>Copyright 2019</P>
-      </footer>
-    </body>
+    </div>
+    <!--REVIEWS END-->
 
+    <div id="pagewrap">
+      <h1 id="titletext">
 
-    </html>
+        <script>
+          var dayNames = ['söndag', 'måndag', 'tisdag',
+            'onsdag', 'torsdag', 'fredag', 'lördag'
+          ];
+          document.getElementById("titletext").innerHTML = `Skolmat
+                    ${dayNames[new Date().getDay()]} ${(new
+                    Date()).getDate()}/${(new Date()).getMonth() + 1}`; //+1 för att listan börjar på 0
+        </script>
+
+      </h1>
+      <div class="luft"></div>
+      <table>
+        <!-- här läggs datan från
+                lunch.js, i nuläget alltid samma lista -->
+      </table>
+      <div class="luft"></div>
+      <script src="js/lunch.js" charset="utf-8"></script>
+      <!--Charset ändras för att använda åäö med JS-->
+
+      <div id="slideshow">
+
+        <img class="mySlides w3-animate-fading" src="img/ss/bildspel1.jpg" alt="bild1"> <img class="mySlides w3-animate-fading" src="img/ss/bildspel2.jpg" alt="bild2"> <img class="mySlides w3-animate-fading" src="img/ss/bildspel3.jpg" alt="bild3">
+        <script src="js/slideshow.js"></script>
+
+        <div id="slideshowtext">
+          <h1>"Skolan du önskar att du gick
+            på"</h1>
+          <h2> - Rektor Ben Dover</h2>
+        </div>
+        <!--SLIDESHOWTEXT END-->
+
+      </div>
+      <!--SLIDESHOW END-->
+
+      <div id="slideshowtextmobil">
+        <h1>"Skolan du önskar att du gick på"</h1>
+        <h2> - Rektor Ben Dover</h2>
+      </div>
+      <!--SLIDESHOWTEXTMOBIL END-->
+
+    </div>
+    <!--PAGEWRAP END-->
+  </div>
+  <!--HEMBG END-->
+
+  <footer>
+    <ul>
+      <li><a href="schema.html">SCHEMAN</a></li>
+      <li><a href="info.html">SKOLINFO</a></li>
+      <li><a href="index.html#titletext">LUNCH</a></li>
+      <li><a href="https://github.com/LiterallyFabian/school">SOURCE</a></li>
+      <li><a href="kontakt.html">KONTAKT</a></li>
+    </ul>
+    <p><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs">Vanadisgatan 10B, 113
+        42 Stockholm</a></p>
+    <P>Copyright 2021</P>
+  </footer>
+  <script src="build-table.js"></script>
+</body>
+
+</html>

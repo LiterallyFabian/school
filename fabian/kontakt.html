@@ -3,59 +3,94 @@
 <html lang="sv">
 
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Sniglet&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="stylesheets/design1.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fabian Lindgren</title>
-    
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sniglet&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Hamburger icons-->
+  <link rel="stylesheet" type="text/css" href="stylesheets/768p.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/1600p.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/2560p.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/4k.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/global.css">
+  <meta charset="UTF-8">
+  <script src="js/hamburger.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SajberGymnasiet</title>
+
 </head>
 
 <body>
-    <div id="kontaktbg">
-<header>
-    
-    <nav>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href=index.html#pagewrap>BREAD FACTS</a></li>
-            <li><a href=index.html#video>MEMES</a></li>
-            <li><a href="kontakt.html">CONTACT</a></li>
-        </ul>
-    </nav>
-    
-        <div class="brodtext">
-            <div class="mindreluft"></div>
-            <div id="memestitle">
-            <h1>Which memes do you like?</h1>
-            </div>
-            <div class="mindreluft"></div>
-        
-    
-    <form action="mailto:lindgrenfabian@gmail.com" method="post" enctype="text/plain">
-    <input class="inputtext" type="text" name="name" value="Name">
-    <input class="inputtext" type="text" name="email" value="E-mail">
-    <input id="textarea" type="text" name="comment" value="Memes">
-    <input type="submit" value="CONTACT HARAMBE">
-    </form>
-    
-    </div>
-    
-</header>   
-        <footer>
-            <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href=index.html#pagewrap>BREAD FACTS</a></li>
-            <li><a href=index.html#video>MEMES</a></li>
-            <li><a href="kontakt.html">CONTACT</a></li>
-        </ul>
-            <p><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs">Vanadisvägen 9B, 113 46 Stockholm</a></p>
-            <P>Copyright 2019</P>
-        </footer>
-    </div> <!--HEMBG-->
-</body>
+  <div id="hembg">
+    <header>
+      <div id="dotcom"></div>
+      <!-- Top Navigation Menu -->
+      <div class="topnav"> <a href="index.html" class="active">SajberGymnasiet</a>
+        <!--
+                Navigation links (hidden by default) -->
+        <div id="myLinks"> <a href="index.html">HEM</a><a href="schema.html">SCHEMAN</a> <a href="info.html">SKOLINFO</a> <a href="index.html#titletext">LUNCH</a> <a href="https://github.com/LiterallyFabian/school">SOURCE</a>
 
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the
+                    navigation links --> <a href="javascript:void(0);" class="icon" onclick="hamburger()"> <i class="fa
+                    fa-bars"></i> </a>
+      </div> <a href="index.html"><img src="img/logo.png" alt="loggan" id="logo"></a>
+      <div class="brodtext">
+        <div id="memestitle">
+          <h1 id="slogan">Ansök till SajberGymnasiet
+            här!</h1>
+          <h2 id="underslogan">Vi vet att du vill...</h2>
+        </div>
+        <form action="mailto:join@cybergymnasiet.com" method="GET" enctype="text/plain" class="applyform">
+          <br> <label for="fname" id="formtitle">Förnamn:</label> <input type="text" id="fname" name="fname" required><br>
+          <br> <label for="lname" id="formtitle">Efternamn:</label> <input type="text" id="lname" name="lname" required><br>
+
+          <br> <label for="email" id="formtitle">Mejladress:</label> <input type="email" id="email" name="email" required><br>
+
+          <br> <label for="genders" id="formtitle">Kön:</label> <select class="dropdown" id="genders" name="genders">
+            <option value="none"></option>
+            <option value="male">Man</option>
+            <option value="female">Kvinna</option>
+            <option value="whatever">Annat</option>
+          </select>
+
+          <br> <label for="program" id="formtitle">Önskat program:</label> <select class="dropdown" id="program" name="genders" required>
+            <option value="none"></option>
+            <option value="te">Teknik: Info & media</option>
+            <option value="te2">Teknik: Produkt & design</option>
+            <option value="ek">Ekonomi: Juridik</option>
+            <option value="ek2">Ekonomi: Ekonomi</option>
+            <option value="cringe">Estet: Bild & form</option>
+            <option value="cringe2">Estet: Musik</option>
+            <option value="ee">El & energi</option>
+            <option value="na">Natur</option>
+            <option value="rdn">Surprise me!</option>
+          </select><br>
+
+          <label for="birthday" id="formtitle">Födelsedatum:</label> <input type="date" id="birthday" name="birthday" min="2001-01-01" max="2005-12-31">
+
+          <br><input type="submit" value="Skicka!">
+          <input type="reset" value="Återställ">
+
+        </form>
+
+      </div>
+
+    </header>
+    <footer>
+      <ul>
+        <li><a href="index.html">HEM</a></li>
+        <li><a href="schema.html">SCHEMAN</a></li>
+        <li><a href="info.html">SKOLINFO</a></li>
+        <li><a href="index.html#titletext">LUNCH</a></li>
+        <li><a href="https://github.com/LiterallyFabian/school">SOURCE</a></li>
+      </ul>
+      <p><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs">Vanadisgatan 10B, 113 42
+          Stockholm</a></p>
+      <P>Copyright 2021</P>
+    </footer>
+  </div>
+  <!--HEMBG-->
+</body>
 
 </html>
