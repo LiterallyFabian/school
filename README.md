@@ -11,10 +11,6 @@ Websites from web development 1 on [Cybergymnasiet](https://cybergymnasiet.se).
 
 [Alex P](http://sajber.me/school/alex)
 
-<<<<<<< HEAD
 [Alex K](http://sajber.me/school/kessidis)
 
 [Melwin](http://sajber.me/school/melwin)
-=======
-[Melwin](http://sajber.me/school/melwin)
->>>>>>> c7ee3f9831b8186d0079c1907635e3b7d274a0b3
