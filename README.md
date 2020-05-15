@@ -1,24 +1,11 @@
-# SajberGymnasiet
+Websites from web development 1 on [Cybergymnasiet](https://cybergymnasiet.se).
 
-some random meme based on [cybergymnasiet.se](https://cybergymnasiet.se/) made as a school project
-
-
-
-## Contributing 👥
-
-You don't
-
-
-
-## License 📃
-
-Who cares, steal the code if you want
 
 # Sites 🌐
 
-[Fabian new](http://sajber.me/school/)
+[Fabian new](http://sajber.me/school/fabian)
 
-[Fabian old](http://sajber.me/school/fabian)
+[Fabian old](http://sajber.me/school/old)
 
 [Alfred](http://sajber.me/school/alfred)
 
